@@ -17,13 +17,13 @@ python3 main.py [OPTIONS]
 
 ### 3. Available Options
 
-Option	    Description
---state	    Filter by state or territory (e.g., VIC, NSW)
---status	Filter by business status (e.g., Registered, Unregistered)
---after	    Filter by registration date (format: YYYY-MM-DD)
---view	    Output mode: list, histogram, or chart. Default is list
---name	    Fuzzy match a business name (in double quotes, example "ABC PTY LTD")
---limit	    Limit number of results, Default is 100.
+Option	    Description<br />
+--state	    Filter by state or territory (e.g., VIC, NSW)<br />
+--status	Filter by business status (e.g., Registered, Unregistered)<br />
+--after	    Filter by registration date (format: YYYY-MM-DD)<br />
+--view	    Output mode: list, histogram, or chart. Default is list<br />
+--name	    Fuzzy match a business name (in double quotes, example "ABC PTY LTD")<br />
+--limit	    Limit number of results, Default is 100.<br />
 
 ### 4. Examples
 
