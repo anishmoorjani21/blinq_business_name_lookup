@@ -1,6 +1,6 @@
 # Business Name Lookup Tool - Business Name Register CLI Utility
 
-This is a command-line utility to explore and search the **Business Name Register** available at [data.gov.au](https://data.gov.au/data/api/3/action/datastore_search?resource_id=55ad4b1c-5eeb-44ea-8b29-d410da431be3).
+This is a command-line utility to explore and search the **Business Name Register** available at [data.gov.au][a link](https://data.gov.au/data/api/3/action/datastore_search?resource_id=55ad4b1c-5eeb-44ea-8b29-d410da431be3).
 
 The tool provides:
 - Filtering capabilities (state, status, registration date)
