@@ -1,6 +1,6 @@
 # Business Name Lookup Tool - Business Name Register CLI Utility
 
-This is a command-line utility to explore and search the **Australian Business Name Register** available at [data.gov.au](https://data.gov.au/data/api/3/action/datastore_search?resource_id=55ad4b1c-5eeb-44ea-8b29-d410da431be3).
+This is a command-line utility to explore and search the **Business Name Register** available at [data.gov.au](https://data.gov.au/data/api/3/action/datastore_search?resource_id=55ad4b1c-5eeb-44ea-8b29-d410da431be3).
 
 The tool provides:
 - Filtering capabilities (state, status, registration date)
@@ -27,14 +27,14 @@ Option	    Description
 
 #### 4. Examples
 
-List all registered businesses in VIC since 2001
+#### List all registered businesses in VIC since 2001
 python main.py --state VIC --status Registered --after 2001-01-01 --view list --limit 10000
 
-Show a registration trend over time
+#### Show a registration trend over time
 python main.py --view chart --limit 500
 
-Show a histogram of business counts by state
+#### Show a histogram of business counts by state
 python main.py --view histogram --limit 1000
 
-Fuzzy match a business name
+#### Fuzzy match a business name
 python main.py --name " 1-3684" --limit 5 --view list
