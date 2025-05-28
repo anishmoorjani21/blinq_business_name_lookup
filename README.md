@@ -23,7 +23,7 @@ Option	    Description<br />
 --after	    Filter by registration date (format: YYYY-MM-DD)<br />
 --view	    Output mode: list, histogram, or chart. Default is list<br />
 --name	    Fuzzy match a business name (in double quotes, example "ABC PTY LTD")<br />
---limit	    Limit number of results, Default is 100.<br />
+--limit	    Limit number of records to retrieve, Default is 100.<br />
 
 ### 4. Examples
 
