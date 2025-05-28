@@ -25,7 +25,7 @@ Option	    Description
 --name	    Fuzzy match a business name (in double quotes, example "ABC PTY LTD")
 --limit	    Limit number of results, Default is 100.
 
-#### 4. Examples
+### 4. Examples
 
 #### List all registered businesses in VIC since 2001
 python main.py --state VIC --status Registered --after 2001-01-01 --view list --limit 10000
